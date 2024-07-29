@@ -1,11 +1,9 @@
-vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
-
 # where to get the package sources from
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO manisonik/dcel
+    REPO manisonik/scpi-parser
     REF "${VERSION}"
-    SHA512 20879f6cf3aaf25f132a8ed87619b21c6e3b4c1f861a27f4739dbba3f18bf049ae623ffdfb996629872a112dfd2fe28241a387164862f55b75d384121e69a6a9
+    SHA512 fa92e29eb333caedf05076380d3a5a6188ea87816e7557aa7ceee4738bf94286fb3325532854553942d15f9add698149718619b1ab31b3addf8310c63f08c93e
     HEAD_REF master
 )
 
@@ -25,7 +23,7 @@ vcpkg_cmake_install()
 
 # this will (try to) fix possible problems with imported targets
 vcpkg_cmake_config_fixup(
-	PACKAGE_NAME "dcel"
+	PACKAGE_NAME "scpi"
 	# where project's CMake configs are installed by default
     CONFIG_PATH "cmake"
 )
