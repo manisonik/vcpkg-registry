@@ -1,0 +1,4 @@
+dcel provides CMake targets:
+
+find_package(dcel CONFIG REQUIRED)
+target_link_libraries(main PRIVATE dcel::dcel)

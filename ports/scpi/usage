@@ -1,0 +1,4 @@
+scpi provides CMake targets:
+
+find_package(scpi CONFIG REQUIRED)
+target_link_libraries(main PRIVATE manisonik::scpi)

@@ -1,5 +1,19 @@
 {
   "name": "dcel",
-  "version": "1.0.0",
-  "description": "Doubly connected edge list used for generating meshes."
+  "version": "1.0.1",
+  "description": "Implementation of a doubly connected edge list (DCEL).",
+  "homepage": "https://github.com/manisonik/dcel",
+  "license": "MIT",
+  "dependencies": [
+    "eigen3",
+    "glm",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }

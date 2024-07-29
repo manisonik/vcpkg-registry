@@ -1,0 +1,4 @@
+fusion provides CMake targets:
+
+find_package(fusion CONFIG REQUIRED)
+target_link_libraries(main PRIVATE xioTechnologies::fusion)

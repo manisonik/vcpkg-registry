@@ -1,0 +1,17 @@
+{
+  "name": "fusion",
+  "version": "1.2.7",
+  "description": "Open Source SCPI device library",
+  "homepage": "https://github.com/manisonik/scpi-parser",
+  "license": "BSD-2-Clause",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
