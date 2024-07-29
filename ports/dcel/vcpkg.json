@@ -1,0 +1,5 @@
+{
+  "name": "dcel",
+  "version-string": "1.0.0",
+  "description": "Doubly connected edge list used for generating meshes."
+}
